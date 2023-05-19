@@ -1,0 +1,173 @@
+/* Estilos generales */
+body {
+    font-family:'Asap', sans-serif;;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #b4586c;
+    color: #f5f4f4;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Sección de presentacion */
+  #hero {
+    background-image: url('public/idole33-lancome.webp');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: black 1px 2px;
+    text-align:center;
+    padding: 100px 0;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero-content h2 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #ff5c5c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Secciones */
+  section {
+    padding: 50px 0;
+    background-color:cornsilk;
+    
+  }
+   
+
+
+  section h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Asap', sans-serif;
+  
+  }
+  
+  section p {
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  /* Reseñas */
+  .review {
+    margin-bottom: 20px;
+    
+  }
+  
+  .review h4 {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  /* Formulario de contacto */
+  form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #6c0a0a;
+  }
+  
+  form input[type="submit"] {
+    background-color: #ff5c5c;
+    color: #071d4d;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #06ea0e;
+  }
+  
+  button {
+    background-color: #b4586c; /* Green */
+    border:black 1px ;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;}
+  /* Media queries para dispositivos móviles */
+  @media (max-width: 768px) {
+    /* Encabezado */
+    header {
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 24px;
+    }
+  
+    nav ul li {
+      margin-right: 10px;
+    }
+  
+    /* Sección de héroe */
+    #hero {
+      padding: 50px 0;
+    }
+  
+    .hero-content h2 {
+      font-size: 24px;
+    }
+  
+    /* Secciones */
+    section {
+      padding: 30px 0;
+    
+    }
+  
+    section h3 {
+      font-size: 20px;
+    }
+  
+    /* Formulario de contacto */
+    form input {
+      padding: 8px;
+    }
+  }
